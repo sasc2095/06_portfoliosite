@@ -3,6 +3,8 @@ main {
   margin: 0 auto;
 }
 
+@media (min-width: 600px) {
+}
 /* menu */
 .navbar {
   overflow: hidden;
