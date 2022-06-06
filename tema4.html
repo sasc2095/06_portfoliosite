@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/tema4.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"> 
+    <title>Tema 4</title>
+  </head>
+  <body>
+    <main>
+      <h1>Tema 4 - Grundlæggende Animation</h1>
+      <p>I dette tema var opgaven af udvikle et funktionel klik-spil samt at lave et dokumentationssite</p>
+      <p>
+        I denne opgave blev vi præsenteret for viden om grundlæggende principper for komposition og layout i digital medieproduktion. Jeg har brugt denne viden til design af UI og spil-elementer. I
+        udviklingsprocessen har jeg lavet paper prototyer og tegnet skitser af mine skærme og elementer på papir. Derudover har jeg udviklet min ide og visuelle koncept i Adobbe XD. Her har jeg lavet
+        Style Tile som indeholder min farvepalette. Jeg har gennem min tillærte viden om karakterdesign, stil analyse og game design styles samt færdigheder i Adobe Illustrator, fortolket og udviklet
+        mit spil. Jeg har brugt rule-of-thirds samt viden om farvekontraster til at udvikle layout på startskærmen. Huset er placeret så det fylder 2/3 dele af skærmen men de afdæmpede farver skaber
+        en illusion af at være placeret længere væk, hvilket flytter fokusset til den venstre side af skærmen. Særligt til det øverste venstre hjørne. Jeg har brugt reglen til at skabe et blikfang til
+        knappen som skal give spilleren lyst til at trykke. Kontrastfarverne er med til at understrege dette blikfang.
+      </p>
+      <div class="design">
+        <h2>Design Portfolio</h2>
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')">Show all</button>
+          <button class="btn" onclick="filterSelection('skitser')">Skitser</button>
+          <button class="btn" onclick="filterSelection('illtrationer')">Illustrationer</button>
+        </div>
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="col skitser">
+            <div class="content">
+              <img src="billeder/paper-prototype/skitse_start-kopi.jpg" alt="startskærm" style="width: 100%" />
+              <h4>Paper prototype</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+        <div class="col skitser">
+          <div class="content">
+            <img src="billeder/paper-prototype/spil_b-kopi.jpg" alt="spil baggrund" style="width: 100%" />
+            <h4>Mountains</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+
+        <div class="col skitser">
+          <div class="content">
+            <img src="billeder/paper-prototype/gameover-skitse.jpg" alt="gameover" style="width: 100%" />
+            <h4>Mountains</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+
+        <div class="col illtrationer">
+          <div class="content">
+            <img src="billeder/illutrator/tegning_kat-kopi.png" alt="kat" style="width: 100%" />
+            <h4>Retro</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="col illtrationer">
+          <div class="content">
+            <img src="billeder/illutrator/layers_kat-kopi.png" alt="kat2" style="width: 100%" />
+            <h4>Retro</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="col illtrationer">
+          <div class="content">
+            <img src="billeder/illutrator/outline-kopi.png" alt="outline" style="width: 100%" />
+            <h4>Retro</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="col illtrationer">
+          <div class="content">
+            <img src="billeder/illutrator/rule-kopi.png" alt="rule" style="width: 100%" />
+            <h4>Retro</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="java.js"></script>
+  </body>
+</html>

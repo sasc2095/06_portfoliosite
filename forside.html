@@ -5,24 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/forside.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
     <title>Forside</title>
   </head>
   <body>
     <header>
       <div class="navbar">
         <div class="logo">
-          <a href="forside.html"><img src="#" alt="logo" /></a>
+          <a class="logo-a" href="forside.html"><img src="SVG/logo.svg" alt="logo" /></a>
         </div>
         <div class="dropdown">
           <button class="dropbtn">Projekter</button>
           <div class="dropdown-content">
-            <a href="tema2.html">Tema 2</a>
-            <a href="tema3.html">Tema 3</a>
-            <a href="tema4.html">Tema 4</a>
-            <a href="tema5.html">Tema 5</a>
+            <a class="nav" href="tema2.html">Tema 2</a>
+            <a class="nav" href="tema3.html">Tema 3</a>
+            <a class="nav" href="tema4.html">Tema 4</a>
+            <a class="nav" href="tema5.html">Tema 5</a>
           </div>
         </div>
-        <a href="om_mig.html">Om mig</a>
+        <a class="nav" href="om_mig.html">Om mig</a>
       </div>
 
       <!-- Burger Menu -->
@@ -32,18 +36,76 @@
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
-        <a href="forside.html"><img src="#" alt="logo" /></a>
+        <a class="logo-a" href="forside.html"><img src="SVG/logo.svg" alt="logo" /></a>
         <div id="myLinks">
-          <a href="projekter.html">Projekter</a>
-          <a href="tema2.html">Tema 2</a>
-          <a href="tema3.html">Tema 3</a>
-          <a href="tema4.html">Tema 4</a>
-          <a href="tema5.html">Tema 5</a>
-          <a href="om_mig.html">Om mig</a>
+          <a class="nav" href="projekter.html">Projekter</a>
+          <a class="nav" href="tema2.html">Tema 2</a>
+          <a class="nav" href="tema3.html">Tema 3</a>
+          <a class="nav" href="tema4.html">Tema 4</a>
+          <a class="nav" href="tema5.html">Tema 5</a>
+          <a class="nav" href="om_mig.html">Om mig</a>
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="grid_1-1-1-1-1">
+        <div class="col">
+          <h2>Tema 2</h2>
+          <a href="tema2.html"><img src="billeder/forside/HTML-icon.jpg" alt="html" /></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt harum alias dignissimos autem temporibus quibusdam libero atque deleniti soluta reprehenderit facilis fuga,
+            suscipit pariatur laboriosam voluptates tempora odit quas?
+          </p>
+          <div class="knap">
+            <a class="knap1" href="tema2.html"><img src="SVG/laes_mere.svg" alt="læs mere" /></a>
+          </div>
+        </div>
+        <div class="col">
+          <h2>Tema 3</h2>
+          <a class="image" href="tema3.html"><img src="billeder/forside/UX-icom.jpg" alt="ux" /></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt harum alias dignissimos autem temporibus quibusdam libero atque deleniti soluta reprehenderit facilis fuga,
+            suscipit pariatur laboriosam voluptates tempora odit quas?
+          </p>
+          <div class="knap">
+            <a class="knap1" href="tema3.html"><img src="SVG/laes_mere.svg" alt="læs mere" /></a>
+          </div>
+        </div>
+        <div class="col">
+          <h2>Tema 4</h2>
+          <a class="image" href="tema4.html"><img src="billeder/forside/Animation-icon.jpg" alt="animation" /></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt harum alias dignissimos autem temporibus quibusdam libero atque deleniti soluta reprehenderit facilis fuga,
+            suscipit pariatur laboriosam voluptates tempora odit quas?
+          </p>
+          <div class="knap">
+            <a class="knap1" href="tema4.html"><img src="SVG/laes_mere.svg" alt="læs mere" /></a>
+          </div>
+        </div>
+        <div class="col">
+          <h2>Tema 5</h2>
+          <a href="tema5.html"><img src="billeder/forside/Indhold-icon.jpg" alt="indhold" /></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt harum alias dignissimos autem temporibus quibusdam libero atque deleniti soluta reprehenderit facilis fuga,
+            suscipit pariatur laboriosam voluptates tempora odit quas?
+          </p>
+          <div class="knap">
+            <a class="knap1" href="tema5.html"><img src="SVG/laes_mere.svg" alt="læs mere" /></a>
+          </div>
+        </div>
+        <div class="col">
+          <h2>Tema 6</h2>
+          <a href="tema6.html"><img src="billeder/forside/Portfoliosite-icon.jpg" alt="portfoliosite" /></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt harum alias dignissimos autem temporibus quibusdam libero atque deleniti soluta reprehenderit facilis fuga,
+            suscipit pariatur laboriosam voluptates tempora odit quas?
+          </p>
+          <div class="knap">
+            <a class="knap1" href="tema6.html"><img src="SVG/laes_mere.svg" alt="læs mere" /></a>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
 
     <script src="java.js"></script>
