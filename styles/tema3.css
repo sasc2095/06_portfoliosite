@@ -13,7 +13,6 @@ img {
   object-fit: cover;
   padding: 5px;
 }
-
 @media (min-width: 600px) {
   .row {
     margin: 8px -16px;
@@ -69,14 +68,6 @@ img {
   .btn.active {
     background-color: #8a8d79;
     color: white;
-  }
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .grid_1-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -140,52 +131,16 @@ img {
   }
 }
 
-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  padding: 5px;
-}
-
-h1 {
-  font-family: "Nunito", sans-serif;
-}
-
-h2 {
-  font-family: "Nunito Sans", sans-serif;
-  padding-bottom: 1rem;
-}
-
-h3 {
-  font-family: "Nunito Sans", sans-serif;
-}
-
-.katte {
-  width: 15rem;
-  align-items: center;
-}
-
-.katte1 {
-  width: 10rem;
-  align-items: center;
-}
-
 p {
   font-family: "Nunito Sans", sans-serif;
 }
 
-figcaption {
-  font-family: "Nunito Sans", sans-serif;
-  font-style: italic;
-  background-color: #b4b89e;
-  inline-size: fit-content;
-  padding: 0.5rem;
-  margin-inline-start: 13rem;
-  border-radius: 8px;
-  transform: translateY(-1%);
-}
-/* 
-.state {
-  height: 15.8rem;
+.lightning {
+  height: 15rem;
   width: auto;
-} */
+}
+
+.ide {
+  height: 15rem;
+  width: auto;
+}

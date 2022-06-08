@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/tema3.css" />
+    <title>Tema 3</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a class="logo-a" href="forside.html"><img src="SVG/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Projekter</button>
+          <div class="dropdown-content">
+            <a class="nav" href="tema2.html">Tema 2</a>
+            <a class="nav" href="tema3.html">Tema 3</a>
+            <a class="nav" href="tema4.html">Tema 4</a>
+            <a class="nav" href="tema5.html">Tema 5</a>
+            <a class="nav" href="tema6.html">Tema 6</a>
+          </div>
+        </div>
+        <a class="nav" href="om_mig.html">Om mig</a>
+      </div>
+
+      <!-- Burger Menu -->
+      <div class="topnav">
+        <div class="burgermenu" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <a class="logo-a" href="forside.html"><img src="SVG/logo.svg" alt="logo" /></a>
+        <div id="myLinks">
+          <a class="nav" href="projekter.html">Projekter</a>
+          <a class="nav" href="tema2.html">Tema 2</a>
+          <a class="nav" href="tema3.html">Tema 3</a>
+          <a class="nav" href="tema4.html">Tema 4</a>
+          <a class="nav" href="tema5.html">Tema 5</a>
+          <a class="nav" href="tema6.html">Tema 6</a>
+          <a class="nav" href="om_mig.html">Om mig</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Tema 3 - Grundlæggende UX</h1>
+
+      <p>
+        I denne opgave blev vi præsenteret for grundlæggende principper indenfor UX, designproces og testmetoder. Jeg har anvendt denne viden til at lave min HiFi prototype af en webshop i Adobe XD.
+        Jeg har brugt mine lærte færdigheder i at indsamle reel data ved at lave desk research, survey og interview. Dermed har jeg fået indsigt i min målgruppes adfærd som jeg har brugt til
+        produktudvikling.
+      </p>
+      <div class="design">
+        <h2>Design Portfolio</h2>
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')">Show all</button>
+          <button class="btn" onclick="filterSelection('skitser')">Skitser</button>
+          <button class="btn" onclick="filterSelection('illtrationer')">Produkt</button>
+        </div>
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="col skitser">
+            <div class="content">
+              <img src="billeder/tema3/desk-research.png" alt="desk research" style="width: 100%" />
+              <h4>Desk Research</h4>
+              <p>Igennem desk research har jeg udviklet nogle skitser på baggrund af inspiration fra andre websites.</p>
+            </div>
+          </div>
+
+          <div class="col skitser">
+            <div class="content">
+              <img class="lightning" src="billeder/tema3/lightning-demo.png" alt="lightning-demo" style="width: 100%" />
+              <h4>Ligthning demo</h4>
+              <p>Jeg har på baggrund af desk reseach udarbejdet nogle ide skitser til min prototype.</p>
+            </div>
+          </div>
+
+          <div class="col skitser">
+            <div class="content">
+              <img src="billeder/tema3/crazy8.png" alt="crazy 8s" style="width: 100%" />
+              <h4>Crazy 8s</h4>
+              <p>Jeg har anvendt designmetoden crazy 8s i min idefase. Her har jeg arbejdet på et layout til min HiFi prototype.</p>
+            </div>
+          </div>
+
+          <div class="col skitser">
+            <div class="content">
+              <img class="ide" src="billeder/tema3/ideskitse.png" alt="ideskitse" style="width: 100%" />
+              <h4>Ide skitser</h4>
+              <p>På baggrund af lightning demo har jeg udviklet nogle ide skitser til hvordan mit layout skulle være.</p>
+            </div>
+          </div>
+
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/tema3/beklaedning-hvid.png" alt="hvid" style="width: 100%" />
+              <h4>Produktunderside - Hvid T-shirt</h4>
+              <p>Jeg har tegnet min karakter på papir og sat det ind i illustrator, hvor jeg lavede et nyt layer og ved hjælp af pen-tool optegnede karakteren.</p>
+            </div>
+          </div>
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/tema3/beklaedning.pink.png" alt="pink" style="width: 100%" />
+              <h4>Produktunderside - Lyserød T-shirt</h4>
+              <p>Jeg opbyggede mine karakter ved forskellige layers.</p>
+            </div>
+          </div>
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/tema3/assets.png" alt="assets" style="width: 100%" />
+              <h4>Style Tile</h4>
+              <p>Jeg har ved hjælp af paintbrush-tool skrevet 'spil', her har jeg derefter markeret det hele og outlinet det for at lave en vektor som kunne scales i kode.</p>
+            </div>
+          </div>
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/tema3/landingpage.png" alt="landing" style="width: 100%" />
+              <h4>Landing page</h4>
+              <p>Jeg har anvendt Photoshop til at udvikle mit splashbillede.</p>
+            </div>
+          </div>
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/tema3/betaling.png" alt="betaling" style="width: 100%" />
+              <h4>Betalingssite</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="col illustrationer">
+            <div class="content">
+              <img src="billeder/tema3/skoenhed.png" alt="skønhed" style="width: 100%" />
+              <h4>Produktunderside - Skønhed</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/tema3/produktoversigt.png" alt="produktoversigt" style="width: 100%" />
+              <h4>Produktoversigt</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1>Research</h1>
+      <p>I dette tema har vi lært forskellige research metoder som jeg har udført og anvendt i min produktudvikling.</p>
+
+      <h2>Semi-strukturerede interview</h2>
+      <p></p>
+    </main>
+    <footer></footer>
+    <script src="java.js"></script>
+  </body>
+</html>

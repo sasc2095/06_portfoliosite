@@ -6,16 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/layout.css" />
     <link rel="stylesheet" href="styles/tema4.css" />
-     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet" />
     <title>Tema 4</title>
   </head>
   <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a class="logo-a" href="forside.html"><img src="SVG/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Projekter</button>
+          <div class="dropdown-content">
+            <a class="nav" href="tema2.html">Tema 2</a>
+            <a class="nav" href="tema3.html">Tema 3</a>
+            <a class="nav" href="tema4.html">Tema 4</a>
+            <a class="nav" href="tema5.html">Tema 5</a>
+            <a class="nav" href="tema6.html">Tema 6</a>
+          </div>
+        </div>
+        <a class="nav" href="om_mig.html">Om mig</a>
+      </div>
+
+      <!-- Burger Menu -->
+      <div class="topnav">
+        <div class="burgermenu" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <a class="logo-a" href="forside.html"><img src="SVG/logo.svg" alt="logo" /></a>
+        <div id="myLinks">
+          <a class="nav" href="projekter.html">Projekter</a>
+          <a class="nav" href="tema2.html">Tema 2</a>
+          <a class="nav" href="tema3.html">Tema 3</a>
+          <a class="nav" href="tema4.html">Tema 4</a>
+          <a class="nav" href="tema5.html">Tema 5</a>
+          <a class="nav" href="tema6.html">Tema 6</a>
+          <a class="nav" href="om_mig.html">Om mig</a>
+        </div>
+      </div>
+    </header>
     <main>
       <h1>Tema 4 - Grundlæggende Animation</h1>
-      <p>I dette tema var opgaven af udvikle et funktionel klik-spil samt at lave et dokumentationssite</p>
+
+      <h2>Design</h2>
+      <h3>I dette tema var opgaven af udvikle et funktionel klik-spil samt at lave et dokumentationssite udfra en valgt stil.</h3>
       <p>
         I denne opgave blev vi præsenteret for viden om grundlæggende principper for komposition og layout i digital medieproduktion. Jeg har brugt denne viden til design af UI og spil-elementer. I
         udviklingsprocessen har jeg lavet paper prototyer og tegnet skitser af mine skærme og elementer på papir. Derudover har jeg udviklet min ide og visuelle koncept i Adobbe XD. Her har jeg lavet
@@ -30,61 +67,184 @@
           <button class="btn active" onclick="filterSelection('all')">Show all</button>
           <button class="btn" onclick="filterSelection('skitser')">Skitser</button>
           <button class="btn" onclick="filterSelection('illtrationer')">Illustrationer</button>
+          <button class="btn" onclick="filterSelection('spil elementer')">Spil Elementer</button>
         </div>
         <!-- Portfolio Gallery Grid -->
         <div class="row">
           <div class="col skitser">
             <div class="content">
               <img src="billeder/paper-prototype/skitse_start-kopi.jpg" alt="startskærm" style="width: 100%" />
-              <h4>Paper prototype</h4>
+              <h4>Skitse af startskærm</h4>
+            </div>
+          </div>
+
+          <div class="col skitser">
+            <div class="content">
+              <img src="billeder/paper-prototype/spil_b-kopi.jpg" alt="spil baggrund" style="width: 100%" />
+              <h4>Skitse af spilskærm</h4>
               <p>Lorem ipsum dolor..</p>
             </div>
           </div>
 
-        <div class="col skitser">
-          <div class="content">
-            <img src="billeder/paper-prototype/spil_b-kopi.jpg" alt="spil baggrund" style="width: 100%" />
-            <h4>Mountains</h4>
-            <p>Lorem ipsum dolor..</p>
+          <div class="col skitser">
+            <div class="content">
+              <img src="billeder/paper-prototype/gameover-skitse.jpg" alt="gameover" style="width: 100%" />
+              <h4>Skitse af gameover skærm</h4>
+              <p></p>
+            </div>
           </div>
-        </div>
 
-        <div class="col skitser">
-          <div class="content">
-            <img src="billeder/paper-prototype/gameover-skitse.jpg" alt="gameover" style="width: 100%" />
-            <h4>Mountains</h4>
-            <p>Lorem ipsum dolor..</p>
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/illutrator/tegning_kat-kopi.png" alt="kat" style="width: 100%" />
+              <h4>Karakter indsat i Illustrator</h4>
+              <p>Jeg har tegnet min karakter på papir og sat det ind i illustrator, hvor jeg lavede et nyt layer og ved hjælp af pen-tool optegnede karakteren.</p>
+            </div>
+          </div>
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/illutrator/layers_kat-kopi.png" alt="kat2" style="width: 100%" />
+              <h4>Karakter i Illustrator</h4>
+              <p>Jeg opbyggede mine karakter ved forskellige layers.</p>
+            </div>
+          </div>
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/illutrator/outline-kopi.png" alt="outline" style="width: 100%" />
+              <h4>Outline af startskærm</h4>
+              <p>Jeg har ved hjælp af paintbrush-tool skrevet 'spil', her har jeg derefter markeret det hele og outlinet det for at lave en vektor som kunne scales i kode.</p>
+            </div>
+          </div>
+          <div class="col illtrationer">
+            <div class="content">
+              <img src="billeder/illutrator/rule-kopi.png" alt="rule" style="width: 100%" />
+              <h4>Rule-of-thirds</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="col spil elementer">
+            <div class="content">
+              <div class="katte">
+                <img src="billeder/tema4/spil/orange_kat-kopi.svg" alt="orange kat" style="width: 100%" />
+              </div>
+              <h4>Karakterdesign</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="col spil elementer">
+            <div class="content">
+              <div class="katte1"><img src="billeder/tema4/spil/graa_kat-kopi.svg" alt="grå kat" style="width: 100%" /></div>
+              <h4>Karakterdesign</h4>
+              <p>
+                Mine karakter er skabt af runde former som gør dem søde,rare og venlige at se på. Derudover har de et stort baby-bias med de unaturligt stor øjne som mit karakterne i min valgte stil
+                også har.
+              </p>
+            </div>
+          </div>
+          <div class="col spil elementer">
+            <div class="content">
+              <div class="katte"><img src="billeder/tema4/spil/plettet_kat-kopi.svg" alt="plettet kat" style="width: 100%" /></div>
+              <h4>Karakterdesign</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="col spil elementer">
+            <div class="content">
+              <img src="billeder/tema4/spil/liv-kopi.svg" alt="liv" style="width: 100%" />
+              <h4>UI element</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="col spil elementer">
+            <div class="content">
+              <img src="billeder/tema4/spil/spil_knap-kopi.svg" alt="spil knap" style="width: 100%" />
+              <h4>UI element/Rule of thumbs</h4>
+              <p>Jeg har lavet UI elementet relativt stort for at kunne virke på et touch device. Det er lavet i seriens title farver for at skabe en fælles konvention.</p>
+            </div>
+          </div>
+          <div class="col spil elementer">
+            <div class="content">
+              <img src="billeder/tema4/spil/start-kopi.svg" alt="start" style="width: 100%" />
+              <h4>Endelige startskærm</h4>
+              <p>Jeg har i min designfortolkning af Phineas & Ferb brugt de farver som serien anvender. Derudover har jeg gengivet seriens karakteristiske hus.</p>
+            </div>
+          </div>
+          <div class="col spil elementer">
+            <div class="content">
+              <img src="billeder/tema4/spil/blank_knap-kopi.svg" alt="blank knap" style="width: 100%" />
+              <h4>UI element</h4>
+              <p></p>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="col illtrationer">
-          <div class="content">
-            <img src="billeder/illutrator/tegning_kat-kopi.png" alt="kat" style="width: 100%" />
-            <h4>Retro</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
+      <h1>Teknik</h1>
+      <p>Vi blev introduceret til aktivitsdiagramer og statemachine diagrammer som jeg har anvendt i udviklingsprocessen.</p>
+      <div class="grid_1-1">
+        <div class="col1">
+          <h2>Aktivitetsdiagram</h2>
+          <p>
+            Jeg har anvendt aktivitetsdiagrammet som et visuelt værktøj til handlingen af spillet. Jeg har brugt det som en guide til hvordan handlingerne i spillet skulle forløbe i forhold til
+            hinanden.
+          </p>
+          <img src="billeder/tema4/Aktivitetsdiagram-kopi.jpg" alt="aktivitetsdiagram" />
         </div>
-        <div class="col illtrationer">
-          <div class="content">
-            <img src="billeder/illutrator/layers_kat-kopi.png" alt="kat2" style="width: 100%" />
-            <h4>Retro</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
+      </div>
+      <h2>State Machine Diagram</h2>
+      <div class="grid_1-1-1">
+        <div class="col1">
+          <p>
+            State Machine Diagrammet har jeg anvendt som et værktøj da jeg skulle kode spillet. Diagrammet viser mere detajleret hvordan mit spil forløber. Jeg har navngivet min kode efter de states
+            som er i diagrammet. Mine states er skrevet i camelCase som i mit JavaScript, inde i disse states står de CSS animationer som sker når den pågældende state starter. Udviklingsprocessen af
+            state machine diagrammet som værktøj har lært mig vigtigheden af at have et visuelt handlingsforløb. Jeg anvendte det ofte, særligt da jeg skulle skrive min JavaScript. Diagrammet bidrog
+            med en forståelse af om der skulle fjernes eller tilføjes en klasse i JavaScript. Dette kan ses i figur 1 og 2.
+          </p>
         </div>
-        <div class="col illtrationer">
-          <div class="content">
-            <img src="billeder/illutrator/outline-kopi.png" alt="outline" style="width: 100%" />
-            <h4>Retro</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
+        <div class="col1">
+          <figure>
+            <img class="state" src="billeder/tema4/statemachine-graa.png" alt="state gra kat" />
+            <figcaption>Figur 1 - StateMachine Diagram</figcaption>
+          </figure>
         </div>
-        <div class="col illtrationer">
-          <div class="content">
-            <img src="billeder/illutrator/rule-kopi.png" alt="rule" style="width: 100%" />
-            <h4>Retro</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
+        <div class="col1">
+          <figure>
+            <img src="billeder/tema4/java-funktion.png" alt="java funktion" />
+            <figcaption>Figur 2 - JavaScript funktion</figcaption>
+          </figure>
         </div>
+      </div>
+
+      <h1>CSS Animationer & JavaScript</h1>
+      <p>
+        I dette tema lærte vi forskellige CSS animationer og Javascript. Jeg valgte at mine gode sprites skulle have 3 forskellige CSS animationer som det fremgår af figur 3. Jeg definerede mine
+        animationer i CSS ved at give dem animations properties, heriblandt et animation-name. Herefter lavede jeg en keyframe som fortæller hvordan spriten/containeren skal flytte sig. Se figur 4.
+        Keyframen siger at ved 0% skal den ikke rotere men ved 90% skal den være roteret 360 grader. CSS animation sættes på sprite containeren i JavaScript, hvor jeg oprettede en funktion for staten.
+        Se figur 5.
+      </p>
+      <div class="grid_1-1-1">
+        <figure>
+          <img src="billeder/tema4/state-god_sprite.png" alt="state god sprite" />
+          <figcaption>Figur 3 - StateMachine god sprite</figcaption>
+        </figure>
+        <figure>
+          <img src="billeder/tema4/drejanimation.png" alt="drej animation" />
+          <figcaption>Figur 4 - drej animation</figcaption>
+        </figure>
+
+        <figure>
+          <img src="billeder/tema4/java-orange.png" alt="java orange" />
+          <figcaption>Figur 5 - JavaScript funktion, orange container</figcaption>
+        </figure>
+      </div>
+
+      <h1>Firefox Inspector tool</h1>
+      <div class="grid_1-1">
+        <p>
+          I dette tema blev vi undervist i hvordan man anvender firefox inspector tool til at udvikling af brugergrænsefladen. Jeg har anvendt toolet til placering af mine spil-elementer i CSS og til
+          at undersøge konsolen, for at se om mine animationer blev afspillet gennem JavaScript.
+        </p>
+        <img src="billeder/tema4/spil/java-console.png" alt="console" />
       </div>
     </main>
     <footer></footer>
