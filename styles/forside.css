@@ -21,3 +21,12 @@ img {
   object-fit: cover;
   padding: 5px;
 }
+
+#splash {
+  background-image: url(billeder/landing.webp);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-size: cover;
+  overflow: hidden;
+}

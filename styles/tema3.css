@@ -69,6 +69,11 @@ img {
     background-color: #8a8d79;
     color: white;
   }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 }
 
 @media (max-width: 599px) {
@@ -129,6 +134,15 @@ img {
     background-color: #8a8d79;
     color: white;
   }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  h1 {
+    padding-left: 1rem;
+  }
 }
 
 p {
@@ -136,11 +150,6 @@ p {
 }
 
 .lightning {
-  height: 15rem;
-  width: auto;
-}
-
-.ide {
   height: 15rem;
   width: auto;
 }
