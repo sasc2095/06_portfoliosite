@@ -147,19 +147,6 @@ img {
   padding: 5px;
 }
 
-h1 {
-  font-family: "Nunito", sans-serif;
-}
-
-h2 {
-  font-family: "Nunito Sans", sans-serif;
-  padding-bottom: 1rem;
-}
-
-h3 {
-  font-family: "Nunito Sans", sans-serif;
-}
-
 .katte {
   width: 15rem;
   align-items: center;
@@ -168,10 +155,6 @@ h3 {
 .katte1 {
   width: 10rem;
   align-items: center;
-}
-
-p {
-  font-family: "Nunito Sans", sans-serif;
 }
 
 figcaption {

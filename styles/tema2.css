@@ -1,0 +1,47 @@
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+ul {
+  font-family: "Nunito Sans", sans-serif;
+  list-style-position: inside;
+  line-height: 2rem;
+}
+
+.knap2 {
+  height: auto;
+  width: 100%;
+}
+
+.knap {
+  width: 7rem;
+  height: auto;
+  cursor: pointer;
+  padding-top: 1rem;
+}
+
+@media (min-width: 600px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  h1 {
+    padding-left: 1rem;
+  }
+}
