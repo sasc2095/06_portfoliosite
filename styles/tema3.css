@@ -74,6 +74,9 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
+  .col1 {
+    padding-bottom: 2rem;
+  }
 }
 
 @media (max-width: 599px) {
@@ -152,4 +155,21 @@ p {
 .lightning {
   height: 15rem;
   width: auto;
+}
+.knap2 {
+  height: auto;
+  width: 100%;
+}
+
+.knap {
+  width: 7rem;
+  height: auto;
+  cursor: pointer;
+  padding-top: 1rem;
+}
+
+ul {
+  font-family: "Nunito Sans", sans-serif;
+  list-style-position: inside;
+  line-height: 2rem;
 }

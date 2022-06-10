@@ -70,13 +70,14 @@ img {
     background-color: #8a8d79;
     color: white;
   }
+
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2rem;
   }
-  .grid_1-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  .col1 {
+    padding-bottom: 2rem;
   }
 }
 
@@ -138,6 +139,15 @@ img {
     background-color: #8a8d79;
     color: white;
   }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  h1 {
+    padding-left: 1rem;
+  }
 }
 
 img {
@@ -172,3 +182,21 @@ figcaption {
   height: 15.8rem;
   width: auto;
 } */
+
+.knap2 {
+  height: auto;
+  width: 100%;
+}
+
+.knap {
+  width: 7rem;
+  height: auto;
+  cursor: pointer;
+  padding-top: 1rem;
+}
+
+ul {
+  font-family: "Nunito Sans", sans-serif;
+  list-style-position: inside;
+  line-height: 2rem;
+}
