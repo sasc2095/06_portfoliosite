@@ -1,0 +1,143 @@
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.splash {
+  background-image: url(/billeder/splash.webp);
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  top: 0;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* typografi */
+.h1_forside {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 500%;
+  position: relative;
+  top: 5rem;
+  left: 7rem;
+}
+
+.h2_forside {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 200%;
+  position: relative;
+  top: 3rem;
+  left: 7rem;
+}
+
+.p_forside {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
+  position: relative;
+  top: 3.5rem;
+  left: 7rem;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+  padding: 2rem 2rem 2rem 0rem;
+}
+
+h2 {
+  font-family: "Nunito Sans", sans-serif;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+a {
+  font-family: "Nunito Sans", sans-serif;
+  color: #8a8d79;
+}
+
+a :hover {
+  color: #8a8d79;
+}
+
+/* footer */
+footer {
+  background-color: #8a8d79;
+  height: auto;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.footer_txt {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.footer_txt2 {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/* liste og knap */
+
+ul {
+  font-family: "Nunito Sans", sans-serif;
+  list-style-position: inside;
+  line-height: 2rem;
+}
+
+.knap2 {
+  height: auto;
+  width: 100%;
+}
+
+.knap {
+  width: 7rem;
+  height: auto;
+  cursor: pointer;
+  padding-top: 1rem;
+}
+
+.lightning {
+  height: 15rem;
+  width: auto;
+}
+
+/* tema 4 */
+.katte {
+  width: 15rem;
+  align-items: center;
+}
+
+.katte1 {
+  width: 10rem;
+  align-items: center;
+}
+
+.design {
+  background-color: #a8a49a;
+  padding: 1.5rem;
+}
+
+.mig {
+  object-fit: cover;
+  width: auto;
+  height: 30rem;
+  position: relative;
+  left: 4rem;
+}
