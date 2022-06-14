@@ -252,7 +252,6 @@ header {
     font-size: 500%;
     position: relative;
     top: 5rem;
-    left: 3rem;
   }
 
   .h2_forside {
@@ -260,7 +259,6 @@ header {
     font-size: 200%;
     position: relative;
     top: 3rem;
-    left: 3rem;
   }
 
   .p_forside {
@@ -268,7 +266,6 @@ header {
     font-style: italic;
     position: relative;
     top: 3.5rem;
-    left: 3rem;
   }
 
   /* design galleri */
@@ -332,6 +329,9 @@ header {
   p {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .col_2 {
+    order: 2;
   }
 }
 
