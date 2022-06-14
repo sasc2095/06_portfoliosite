@@ -68,7 +68,7 @@ a {
 }
 
 a :hover {
-  color: #8a8d79;
+  color: #a8a49a;
 }
 
 /* footer */
@@ -111,6 +111,21 @@ ul {
   height: auto;
   cursor: pointer;
   padding-top: 1rem;
+}
+
+.pulse :hover {
+  animation: pulse 1s;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.1, 1.1);
+  }
 }
 
 .lightning {
